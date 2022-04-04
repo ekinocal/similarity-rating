@@ -1,0 +1,41 @@
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\ekino\OneDrive\Masaüstü\projeeeeee
+-- The C compiler identification is MSVC 19.25.28614.0
+-- The CXX compiler identification is MSVC 19.25.28614.0
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x86/cl.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/ekino/OneDrive/MasaÃ¼stÃ¼/projeeeeee/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):nmake /nologo cmTC_d6698\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_d6698.dir\build.make /nologo -L                  CMakeFiles\cmTC_d6698.dir\build
+    Building C object CMakeFiles/cmTC_d6698.dir/testCCompiler.c.obj
+    	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @C:\Users\ekino\AppData\Local\Temp\nmB6E8.tmp
+    testCCompiler.c
+    Linking C executable cmTC_d6698.exe
+    	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d6698.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_d6698.dir\objects1.rsp @C:\Users\ekino\AppData\Local\Temp\nmB8AE.tmp
+    LINK Pass 1: command "C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_d6698.dir\objects1.rsp /out:cmTC_d6698.exe /implib:cmTC_d6698.lib /pdb:C:\Users\ekino\OneDrive\Masa?st?\projeeeeee\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_d6698.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_d6698.dir/intermediate.manifest CMakeFiles\cmTC_d6698.dir/manifest.res" failed (exit code 1201) with the following output:
+    LINK : fatal error LNK1201: 'C:\Users\ekino\OneDrive\Masa?st?\projeeeeee\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_d6698.pdb' program veritabanÄ±na yazÄ±lÄ±rken hata; yetersiz disk alanÄ±, geÃ§ersiz yok veya yetersiz ayrÄ±calÄ±k denetimi yapÄ±n
+    NMAKE : fatal error U1077: '"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe"' : DÃ·nÂ³â–  kodu '0xffffffff'
+    Stop.
+    NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\nmake.exe"' : DÃ·nÂ³â–  kodu '0x2'
+    Stop.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/ekino/OneDrive/MasaÃ¼stÃ¼/projeeeeee/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/ekino/OneDrive/MasaÃ¼stÃ¼/projeeeeee/cmake-build-debug/CMakeFiles/CMakeError.log".
